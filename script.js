@@ -3,7 +3,7 @@ function multiplyBy()
         age1 = document.getElementById("age").value;
         oldAge1 = document.getElementById("oldAge").value;
 
-        var lifeDays = (age1);
+        var lifeDays = (oldAge1 - age1)* 365;
         var lifeWeeks = parseInt(oldAge1 - age1)* 52;
         var lifeMonths = parseInt(oldAge1 - age1)*12;
         var lifeYears = parseInt(oldAge1 - age1);

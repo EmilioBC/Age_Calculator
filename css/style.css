@@ -14,7 +14,7 @@ img {
 .main {
   margin: auto;
   position: relative;
-  bottom: 1400px;
+  bottom: 1500px;
   max-width: 700px;
   background: rgba(99, 67, 8, 0.73);
 }
@@ -43,21 +43,33 @@ h2 {
   margin: auto;
   position: relative;
 }
-button {
+#button {
   position: relative;
   bottom: 20px;
   display: block;
-  margin: auto auto 50px auto;
+  margin: auto auto 100px auto;
   font-size: 50px;
 }
-button:hover {
-  background-color: red;
+form #button:hover {
+  background-color: rgb(233, 141, 141);
 }
 #result {
   position: relative;
-  bottom: 1400px;
+  bottom: 1600px;
   max-width: 700px;
+  height: 400px;
   margin: auto;
   background: rgba(99, 67, 8, 0.73);
-  font-size: 60px;
+  font-size: 50px;
+}
+form {
+  font-size: 50px;
+}
+#age {
+  margin: auto;
+  display: block;
+}
+#oldAge {
+  margin: auto;
+  display: block;
 }
