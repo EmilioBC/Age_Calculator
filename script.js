@@ -12,7 +12,7 @@ function multiplyBy()
         ${lifeWeeks} weeks,<br>
         ${lifeMonths} months,<br>
         ${lifeYears} years <br>
-        left before you turn to 90 years old. `; 
+        left before you age to ${oldAge1} years old. `; 
 
         document.getElementById("result").innerHTML = message;
 }
