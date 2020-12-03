@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+img {
+  display: inline-block;
+  height: 1500px;
+}
+.main {
+  margin: auto;
+  position: relative;
+  bottom: 1400px;
+  max-width: 700px;
+  background: rgba(99, 67, 8, 0.73);
+}
+.main h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: "Ultra", serif;
+  font-size: 100px;
+}
+h2 {
+  padding: 20px;
+  font-family: "Sansita Swashed", cursive;
+  word-spacing: 10px;
+}
+#age {
+  font-size: 100px;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  position: relative;
+}
+#oldAge {
+  font-size: 100px;
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  position: relative;
+}
+button {
+  position: relative;
+  bottom: 20px;
+  display: block;
+  margin: auto auto 50px auto;
+  font-size: 50px;
+}
+button:hover {
+  background-color: red;
+}
+#result {
+  position: relative;
+  bottom: 1400px;
+  max-width: 700px;
+  margin: auto;
+  background: rgba(99, 67, 8, 0.73);
+  font-size: 60px;
+}

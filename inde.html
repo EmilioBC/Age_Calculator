@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Calculator</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&family=Ultra&display=swap" rel="stylesheet">
+</head>
+<body>
+  <img src="img/hourglass.jpg">
+    <div class="main">
+      <h1>Welcome to Life Calculator</h1>
+      <h2>This tool will let you check as to how many days, weeks, months and years you have got left before the age of 90.</h2>
+      <!-- <input id="age1" type="number" placeholder="Age" value="" style="width: 300px;"> -->
+      <form>
+        Age : <input type="text" id="age" placeholder="Age" /><br>
+        Target Old Age: <input type="text" id="oldAge" placeholder="Target Age" /><br>
+        <input type="button" onClick="multiplyBy()" Value="Multiply" />
+        <!-- <input type="button" onClick="divideBy()" Value="Divide" />
+        </form>
+      <button>Submit</button> -->
+    </div>
+    <div class="resultContainer">
+      <h1 id="result">Days Weeks Months Years</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
